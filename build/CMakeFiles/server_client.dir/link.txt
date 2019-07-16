@@ -1,0 +1,1 @@
+/usr/bin/c++.exe   -std=c++11 -lpthread  -Wl,--enable-auto-import CMakeFiles/server_client.dir/src/main.cpp.o CMakeFiles/server_client.dir/src/FlagsHendler.cpp.o CMakeFiles/server_client.dir/src/Client.cpp.o CMakeFiles/server_client.dir/src/Server.cpp.o  -o server_client.exe -Wl,--out-implib,libserver_client.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

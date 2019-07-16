@@ -1,0 +1,3 @@
+/cygdrive/d/all_with_prog/server_client/build/CMakeFiles/edit_cache.dir
+/cygdrive/d/all_with_prog/server_client/build/CMakeFiles/server_client.dir
+/cygdrive/d/all_with_prog/server_client/build/CMakeFiles/rebuild_cache.dir

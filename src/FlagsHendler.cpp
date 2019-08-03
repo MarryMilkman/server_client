@@ -5,8 +5,8 @@ FlagsHendler::FlagsHendler(){}
 FlagsHendler::~FlagsHendler(){}
 
 FlagsHendler::FlagsHendler(int const argc, char const **argv, std::string &host, int &port, int &mod) {
-	this->_host = "127.0.0.1";
-	this->_port = 8080;
+	this->_host = "0.0.0.0";
+	this->_port = 9897;
 	this->_mod = -1;
 	if (argc == 1)
 		this->_mod = 2;
@@ -16,7 +16,7 @@ FlagsHendler::FlagsHendler(int const argc, char const **argv, std::string &host,
 
 	// for (int i = 1; i < argc; i++)
 	// 	params.push_back(argv[i]);
-	
+
 	host = this->_host;
 	port = this->_port;
 	mod = this->_mod;

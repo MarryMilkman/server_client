@@ -2,13 +2,8 @@ cmake_minimum_required(VERSION 3.10.2)
 
 project(MyProject)
 
-find_package(Boost 1.65 REQUIRED)
-
-link_directories( ${Boost_LIBRARY_DIRS})
-
 include_directories (
 	inc
-	${Boost_INCLUDE_DIRS}
 )
 
 
@@ -21,6 +16,7 @@ set(SRC
 		src/FlagsHendler.cpp
 		src/Client.cpp
 		src/Server.cpp
+		src/CastumException.cpp
 	)
 
 

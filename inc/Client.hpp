@@ -11,14 +11,19 @@ public:
 	~Client();
 
 private:
-	boost::asio::io_service			_service;
-	boost::asio::ip::tcp::endpoint  _ep;
-	boost::asio::ip::tcp::socket    _sock;
+	int 								_port;
+	std::string					_host;
+
+	int									_sock_fd;
+	struct sockaddr_in	_serv_addr;
+
+	void 			_init_host_port(std::string host, int port);
+	void 			_init_sock_addr();
 
 	void			_startWork();
 
 	void			_send_request(std::string request);
-	std::string		_get_response();		
+	std::string		_get_response();
 };
 
 #endif

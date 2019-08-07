@@ -1,0 +1,13 @@
+sudo route del default gw 192.168.1.1 dev wlx60e3270b30bb
+
+ip ad
+
+swconfig dev eth0 show | grep up | grep link
+
+van/lan
+
+ubus
+
+time
+
+strace

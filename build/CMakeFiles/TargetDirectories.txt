@@ -1,0 +1,3 @@
+/home/user/Public/new_serv_client/build/CMakeFiles/rebuild_cache.dir
+/home/user/Public/new_serv_client/build/CMakeFiles/edit_cache.dir
+/home/user/Public/new_serv_client/build/CMakeFiles/server_client.dir

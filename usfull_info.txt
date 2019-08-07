@@ -1,0 +1,31 @@
+hello
+ssh
+Servar:
+https://github.com/substack/libssh/blob/master/examples/samplesshd.c
+Client:
+https://rtfm.co.ua/c-libssh-primer-ssh-klienta/
+
+:
+
+batctl
+
+#check inet
+ethtool <interface>
+
+#for bash to c
+shc
+
+
+
+#зумля
+ip ro
+#воздух
+
+iw dev
+
+#broadcast:
+https://informst.ucoz.ru/publ/15-1-0-73
+
+
+/var/dhcp.leases
+s

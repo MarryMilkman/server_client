@@ -7,8 +7,8 @@ class CastumException: public std::exception
 {
   CastumException() = delete;
 public:
-  ~CastumException()                throw();
-  CastumException(eType errorType)  throw();
+  CastumException(eType errorType)  ;
+  ~CastumException()                ;
   std::string			what()            throw();
 
 private:

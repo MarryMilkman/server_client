@@ -1,6 +1,7 @@
 #include "Client.hpp"
 #include "CastumException.hpp"
 
+
 Client::~Client(){}
 
 Client::Client(std::string host, int port)
@@ -42,6 +43,7 @@ void			Client::_startWork() {
 		while(!line.size()) {
 			std::cout << "$>";
 			getline(std::cin, line);
+			// line="";
 		}
 		if (line == "-exit") {
 			break ;
@@ -52,6 +54,7 @@ void			Client::_startWork() {
 		std::cout << "Response:\n" << response << "\n\n";
 		line = "";
 		close(this->_sock_fd);
+		exit(0);
 	}
 }
 

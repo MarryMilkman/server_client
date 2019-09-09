@@ -30,8 +30,8 @@ public:
 	~Server();
 
 private:
-	int 								_opt;
-	int									_serv_sock_fd;
+	int 				_opt;
+	int					_serv_sock_fd;
 	struct sockaddr_in	_address;
 
 	std::string _host;

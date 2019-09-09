@@ -76,7 +76,7 @@ void	Server::_startWork() {
 		if (new_socket < 0) {
 			std::cerr << "accept fail\n";
 			continue;
-    }
+    	}
 		request = this->_read_from_sock(new_socket, val);
 		if (val < 0) {
 			std::cerr << "filed read client_sock\n";
